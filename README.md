@@ -1,36 +1,60 @@
-# E-Voting
-Blockchain technology is changing the global economy, our ecosystem, and day to day life. Why not Voting?!
+# EZVote
+##  Blockchain technology is changing the global economy, our ecosystem, and day to day life. Why not Voting?!
+
+
+
+#### EZVote is a decdecentralized voting application build on top of Ethereum  in the form of a smart contract. The election authority issues public keys for eligible voters that they can then use to vote for their favorable candidate from the comforat of their home.
 
 
 
 
-In our proposal, we will use a permissioned blockchain,
-a variation of the consortium-based chains, which uses the
-proof-of-authority(POA) consensus algorithm. In proof-ofauthority-based networks, transactions and blocks are validated by approved accounts, known as validators. This process
-is automated and does not require the validators to be constantly monitoring their computers. A permissioned blockchain
-which uses the POA consensus algorithm enables us to set
-restrictions on a set of selected known entities to validate and
-certify transactions on the blockchain and censor transactions
-arbitrarily, with their identity and reputation at stake. This
-otherwise needs to be done by miners on a public blockchain
-which uses the proof-of-work consensus algorithm. Rather
-than employing mining fees, like the public blockchains in
-operation require, using a permissioned blockchain, validators
-get payed for the service they provide by acting as validators
-in the system. Moreover, using a private network limits the
-possibility for an eavesdropper to monitor traffic or read the
-incoming data. This is needed to fulfill voting rights so that
-voters can cast votes without leaking their identity or voting
-data.
-1) Smart Contracts: Smart contracts are trackable and
-irreversible applications that execute in a decentralized environment (e.g., blockchain). Once the smart contract has been
-deployed nobody can edit the code or change its execution
-behavior. Smart contract execution guarantees to bind parties
-together to an agreement as written. This creates a new
-powerful type of trust relationship that does not rely on a
-single party. Smart contracts enables better management for
-realizing and administering digital agreements because they
-are self-verify
+### Countries that conducted Elections on the blockchain
+**Sierra Leone** is a country on the southwest coast of West Africa. it  conducted a Blockchain-based voting system on March 7 and became the first country to become so. Leonardo Gammar of Agora, stored votes in an immutable distributed ledger, thereby offering instant access to the election results.
+
+
+
+
+
+**Russia**  launched a blockchain-based electronic voting system pilot project in June 2019. 
+
+## Tools Used to build this project:
+
+**1- Blockchain Testnet build on Ethereum using proof-of-authority(POA) consensus algorithm.**
+
+for more detailed instructions on how to build PoA blockchain testnet, [you can refer to this repo.](https://github.com/SashaFlores/Blockchain_Developement)
+
+
+![](ScreenShots/poa-vs-pop-01.png)
+
+**2- Solidity Smart Contract on Remix**
+
+is trackable and irreversible, Once the smart contract has been deployed nobody can edit the code or change its execution behavior.
+
+Remix IDE is an open source web and desktop application that's used to write, compile and debug Solidity code, [you can use Remix from this link](https://remix.ethereum.org/)
+
+**3- Ganache**
+
+is our local blockchain that established in the first step, you can download from this link:
+
+[Ganache site](https://www.trufflesuite.com/ganache)
+
+and create a workspace in localhost(127.0.0.1) with port 8545
+
+**4-MetaMask**
+
+It allows you to run Ethereum dApps right in your browser without running a full Ethereum node
+
+you can download from this link:
+[MetaMask site](https://metamask.io/)
+
+**5-FrontEnd**
+
+Using The InterPlanetary File System [IPFS](https://ipfs.io/), javacript, & local host 8000 to run the User Interface dapp.
+
+
+
+
+
 
 
 
@@ -38,6 +62,5 @@ are self-verify
 
 - [View & Pure functions in solidity](https://docs.soliditylang.org/en/v0.4.25/contracts.html?highlight=view%20pure#view-functions)
 - [State, Local, & Global Variables in Solidity](https://www.tutorialspoint.com/solidity/solidity_quick_guide.htm)
-
-
-
+- [Sierra Leone](https://en.wikipedia.org/wiki/Sierra_Leone)
+- [Top countries conducted blockchainvoting ](https://www.blockchain-council.org/blockchain/top-countries-that-conducted-elections-on-the-blockchain/)
