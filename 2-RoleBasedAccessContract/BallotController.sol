@@ -5,7 +5,7 @@ import "github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contr
 
 /**
  * @title BallotController
- * Implement Voting process with Role-Based Access Controller
+ * Implement Voting process with Roles-Based Access Controller
  */
 
 contract BallotController{
