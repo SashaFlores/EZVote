@@ -1,8 +1,6 @@
 ##  EZVote
  
-### EZVote is a decdecentralized voting application build on top of Ethereum  in the form of a smart contract. The election authority issues public keys for eligible voters that they can then use to vote for their favorable candidate from the comforat of their home.
-
-
+### EZVote is a decdecentralized voting application build on top of Ethereum  in the form of a smart contract. 
 
 * Here is an article about [Top countries conducted blockchain voting ](https://www.blockchain-council.org/blockchain/top-countries-that-conducted-elections-on-the-blockchain/)
 
@@ -15,12 +13,10 @@ for more detailed instructions on how to build PoA blockchain, [you can refer to
 
 
 
-**2- Smart Contracts**
+**2- Truffle Suite**
 
-There are 2 developed contracts included:
+Unboxed [pet-shop](https://www.trufflesuite.com/boxes/pet-shop), you can find instructions here.
 
-   * [1-Single Controller Contract](1-OwnableContract) 
-   * [2-Roles-Based Access Contract](2-RBAC) 
 
 **3- Ganache**
 
