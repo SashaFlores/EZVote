@@ -1,18 +1,22 @@
 {
-  "name": "pet-shop",
+  "name": "ezvote",
   "version": "1.0.0",
-  "description": "",
-  "main": "truffle.js",
-  "directories": {
-    "test": "test"
-  },
+  "description": "dapp",
+  "main": "index.js",
   "scripts": {
-    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.3.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SashaFlores/EZVote.git"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "author": "sashaFlores",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SashaFlores/EZVote/issues"
+  },
+  "homepage": "https://github.com/SashaFlores/EZVote#readme"
 }
