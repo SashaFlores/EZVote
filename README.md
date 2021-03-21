@@ -10,4 +10,4 @@ Note:
 
 * Main branch includes user interface only.
 * [Ownable branch](https://github.com/SashaFlores/EZVote/tree/Ownable) includes basic access control contract.
-* [Role-Based](https://github.com/SashaFlores/EZVote/tree/Role-Based) branch includes roles-based access contract.
+* [Role-Based branch](https://github.com/SashaFlores/EZVote/tree/Role-Based)  includes roles-based access contract.
