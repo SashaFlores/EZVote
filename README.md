@@ -8,5 +8,5 @@ Demo: https://ezvote.netlify.app/
 Note: 
 
 * Main branch includes user interface only.
-* [Ownable branch](single-controller/README.md) includes basic access control contract.
+* [Ownable branch](EZVote/tree/Ownable) includes basic access control contract.
 * [Role-Based](RBAC) branch includes roles-based access contract.
